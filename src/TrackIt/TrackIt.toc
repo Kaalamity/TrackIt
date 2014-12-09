@@ -1,0 +1,7 @@
+﻿## Interface: 60000
+## Title: TrackIt
+## Author: Kaalamity
+## Version: 0.1.0
+## Notes: Simple tracking bar AddOn.
+TrackIt.xml
+TrackIt.lua
