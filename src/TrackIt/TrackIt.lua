@@ -7,7 +7,7 @@ function TrackIt_OnLoad()
 end
 
 function createStatusBar()
-	MyStatusBar = CreateFrame("StatusBar", "MainStatusBar", TrackIt_MainFrame)
+	MyStatusBar = CreateFrame("StatusBar", "MainStatusBar", TrackIt_StatusBarFrame)
 	MyStatusBar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
 	MyStatusBar:GetStatusBarTexture():SetHorizTile(false)
 	MyStatusBar:SetMinMaxValues(0, 100)

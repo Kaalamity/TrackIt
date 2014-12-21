@@ -19,7 +19,7 @@
 			<OnDragStop>self:StopMovingOrSizing();</OnDragStop>
 		</Scripts>
 		 <Size>
-		   <AbsDimension x="56" y="56" />
+		   <AbsDimension x="250" y="56" />
 		 </Size>
 		 <Anchors>
 		   <Anchor point="BOTTOMLEFT">
@@ -40,8 +40,29 @@
 			 <AbsValue val="16"/>
 		   </EdgeSize>
 		 </Backdrop>
-		 <StatusBar name="TheStatusBar">
-			
-		 </StatusBar>
    </Frame>
+   <Frame name="TrackIt_StatusBarFrame" parent="TrackIt_MainFrame">
+		 <Size>
+		   <AbsDimension x="200" y="20" />
+		 </Size>
+		 <Anchors>
+		   <Anchor point="CENTER">
+				<Offset>
+					<AbsDimension x="7" y="25"/>
+				</Offset>
+		   </Anchor>
+		 </Anchors>
+		 <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"
+			   edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+		   <BackgroundInsets>
+			 <AbsInset left="2" right="2" top="2" bottom="2"/>
+		   </BackgroundInsets>
+		   <TileSize>
+			 <AbsValue val="32"/>
+		   </TileSize>
+		   <EdgeSize>
+			 <AbsValue val="16"/>
+		   </EdgeSize>
+		 </Backdrop>
+	 </Frame>
 </Ui>
